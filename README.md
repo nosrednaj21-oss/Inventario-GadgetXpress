@@ -3,9 +3,6 @@
 #include <iomanip>
 using namespace std;
 
-// ─────────────────────────────────────────────
-//  Estructura de datos
-// ─────────────────────────────────────────────
 struct Producto {
     string nombre;
     int    codigo;
@@ -13,9 +10,9 @@ struct Producto {
     double precio;
 };
 
-// ─────────────────────────────────────────────
+
 //  Estado del inventario
-// ─────────────────────────────────────────────
+
 const int CAPACIDAD_MAX = 100;
 Producto inventario[CAPACIDAD_MAX];
 int totalProductos = 0;
